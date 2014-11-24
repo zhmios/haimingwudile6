@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9BAB9961A234023000A0435 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BAB9951A234023000A0435 /* main.m */; };
+		C9BAB9991A234023000A0435 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BAB9981A234023000A0435 /* AppDelegate.m */; };
+		C9BAB99C1A234023000A0435 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BAB99B1A234023000A0435 /* ViewController.m */; };
+		C9BAB99F1A234023000A0435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9BAB99D1A234023000A0435 /* Main.storyboard */; };
+		C9BAB9A11A234023000A0435 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9BAB9A01A234023000A0435 /* Images.xcassets */; };
+		C9BAB9A41A234023000A0435 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9BAB9A21A234023000A0435 /* LaunchScreen.xib */; };
+		C9BAB9B01A234023000A0435 /* ViocePhotoAlbumDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BAB9AF1A234023000A0435 /* ViocePhotoAlbumDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9BAB9AA1A234023000A0435 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9BAB9881A234023000A0435 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9BAB98F1A234023000A0435;
+			remoteInfo = ViocePhotoAlbumDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9BAB9901A234023000A0435 /* ViocePhotoAlbumDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViocePhotoAlbumDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BAB9941A234023000A0435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9BAB9951A234023000A0435 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9BAB9971A234023000A0435 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9BAB9981A234023000A0435 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9BAB99A1A234023000A0435 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C9BAB99B1A234023000A0435 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C9BAB99E1A234023000A0435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9BAB9A01A234023000A0435 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C9BAB9A31A234023000A0435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C9BAB9A91A234023000A0435 /* ViocePhotoAlbumDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViocePhotoAlbumDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BAB9AE1A234023000A0435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9BAB9AF1A234023000A0435 /* ViocePhotoAlbumDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViocePhotoAlbumDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9BAB98D1A234023000A0435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BAB9A61A234023000A0435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9BAB9871A234023000A0435 = {
+			isa = PBXGroup;
+			children = (
+				C9BAB9921A234023000A0435 /* ViocePhotoAlbumDemo */,
+				C9BAB9AC1A234023000A0435 /* ViocePhotoAlbumDemoTests */,
+				C9BAB9911A234023000A0435 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9BAB9911A234023000A0435 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9BAB9901A234023000A0435 /* ViocePhotoAlbumDemo.app */,
+				C9BAB9A91A234023000A0435 /* ViocePhotoAlbumDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9BAB9921A234023000A0435 /* ViocePhotoAlbumDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C9BAB9971A234023000A0435 /* AppDelegate.h */,
+				C9BAB9981A234023000A0435 /* AppDelegate.m */,
+				C9BAB99A1A234023000A0435 /* ViewController.h */,
+				C9BAB99B1A234023000A0435 /* ViewController.m */,
+				C9BAB99D1A234023000A0435 /* Main.storyboard */,
+				C9BAB9A01A234023000A0435 /* Images.xcassets */,
+				C9BAB9A21A234023000A0435 /* LaunchScreen.xib */,
+				C9BAB9931A234023000A0435 /* Supporting Files */,
+			);
+			path = ViocePhotoAlbumDemo;
+			sourceTree = "<group>";
+		};
+		C9BAB9931A234023000A0435 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9BAB9941A234023000A0435 /* Info.plist */,
+				C9BAB9951A234023000A0435 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9BAB9AC1A234023000A0435 /* ViocePhotoAlbumDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9BAB9AF1A234023000A0435 /* ViocePhotoAlbumDemoTests.m */,
+				C9BAB9AD1A234023000A0435 /* Supporting Files */,
+			);
+			path = ViocePhotoAlbumDemoTests;
+			sourceTree = "<group>";
+		};
+		C9BAB9AD1A234023000A0435 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9BAB9AE1A234023000A0435 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9BAB98F1A234023000A0435 /* ViocePhotoAlbumDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BAB9B31A234023000A0435 /* Build configuration list for PBXNativeTarget "ViocePhotoAlbumDemo" */;
+			buildPhases = (
+				C9BAB98C1A234023000A0435 /* Sources */,
+				C9BAB98D1A234023000A0435 /* Frameworks */,
+				C9BAB98E1A234023000A0435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViocePhotoAlbumDemo;
+			productName = ViocePhotoAlbumDemo;
+			productReference = C9BAB9901A234023000A0435 /* ViocePhotoAlbumDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9BAB9A81A234023000A0435 /* ViocePhotoAlbumDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BAB9B61A234023000A0435 /* Build configuration list for PBXNativeTarget "ViocePhotoAlbumDemoTests" */;
+			buildPhases = (
+				C9BAB9A51A234023000A0435 /* Sources */,
+				C9BAB9A61A234023000A0435 /* Frameworks */,
+				C9BAB9A71A234023000A0435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9BAB9AB1A234023000A0435 /* PBXTargetDependency */,
+			);
+			name = ViocePhotoAlbumDemoTests;
+			productName = ViocePhotoAlbumDemoTests;
+			productReference = C9BAB9A91A234023000A0435 /* ViocePhotoAlbumDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9BAB9881A234023000A0435 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = zhm;
+				TargetAttributes = {
+					C9BAB98F1A234023000A0435 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					C9BAB9A81A234023000A0435 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = C9BAB98F1A234023000A0435;
+					};
+				};
+			};
+			buildConfigurationList = C9BAB98B1A234023000A0435 /* Build configuration list for PBXProject "ViocePhotoAlbumDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9BAB9871A234023000A0435;
+			productRefGroup = C9BAB9911A234023000A0435 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9BAB98F1A234023000A0435 /* ViocePhotoAlbumDemo */,
+				C9BAB9A81A234023000A0435 /* ViocePhotoAlbumDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9BAB98E1A234023000A0435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BAB99F1A234023000A0435 /* Main.storyboard in Resources */,
+				C9BAB9A41A234023000A0435 /* LaunchScreen.xib in Resources */,
+				C9BAB9A11A234023000A0435 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BAB9A71A234023000A0435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9BAB98C1A234023000A0435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BAB99C1A234023000A0435 /* ViewController.m in Sources */,
+				C9BAB9991A234023000A0435 /* AppDelegate.m in Sources */,
+				C9BAB9961A234023000A0435 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BAB9A51A234023000A0435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BAB9B01A234023000A0435 /* ViocePhotoAlbumDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9BAB9AB1A234023000A0435 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9BAB98F1A234023000A0435 /* ViocePhotoAlbumDemo */;
+			targetProxy = C9BAB9AA1A234023000A0435 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9BAB99D1A234023000A0435 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9BAB99E1A234023000A0435 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9BAB9A21A234023000A0435 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9BAB9A31A234023000A0435 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9BAB9B11A234023000A0435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9BAB9B21A234023000A0435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9BAB9B41A234023000A0435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ViocePhotoAlbumDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9BAB9B51A234023000A0435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ViocePhotoAlbumDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C9BAB9B71A234023000A0435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ViocePhotoAlbumDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViocePhotoAlbumDemo.app/ViocePhotoAlbumDemo";
+			};
+			name = Debug;
+		};
+		C9BAB9B81A234023000A0435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ViocePhotoAlbumDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViocePhotoAlbumDemo.app/ViocePhotoAlbumDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9BAB98B1A234023000A0435 /* Build configuration list for PBXProject "ViocePhotoAlbumDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BAB9B11A234023000A0435 /* Debug */,
+				C9BAB9B21A234023000A0435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9BAB9B31A234023000A0435 /* Build configuration list for PBXNativeTarget "ViocePhotoAlbumDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BAB9B41A234023000A0435 /* Debug */,
+				C9BAB9B51A234023000A0435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9BAB9B61A234023000A0435 /* Build configuration list for PBXNativeTarget "ViocePhotoAlbumDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BAB9B71A234023000A0435 /* Debug */,
+				C9BAB9B81A234023000A0435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9BAB9881A234023000A0435 /* Project object */;
+}
