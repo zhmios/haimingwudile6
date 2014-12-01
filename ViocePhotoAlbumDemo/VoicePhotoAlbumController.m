@@ -22,7 +22,7 @@
     
    [self.largeImageView setImageWithURL:[NSURL URLWithString:@"http://img0.bdstatic.com/img/image/shouye/mxym-9447375568.jpg"] usingActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
     [self createSoundRecorder];
-    // Do any additional setup after loading the view.
+ 
 }
 - (void)createSoundRecorder{
     self.recorder = [[SoundRecorder alloc]init];

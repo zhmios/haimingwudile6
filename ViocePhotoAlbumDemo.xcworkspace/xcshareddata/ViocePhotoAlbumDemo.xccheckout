@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>62C41E5E-9BC8-48A6-8320-F02897E0EF18</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ViocePhotoAlbumDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0F1EEA9DBA71A4E364CD615317F71D5D1F30DE00</key>
+		<string>github.com:zhmios/haimingwudile6.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ViocePhotoAlbumDemo.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0F1EEA9DBA71A4E364CD615317F71D5D1F30DE00</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:zhmios/haimingwudile6.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0F1EEA9DBA71A4E364CD615317F71D5D1F30DE00</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0F1EEA9DBA71A4E364CD615317F71D5D1F30DE00</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ViocePhotoAlbumDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
