@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import <AVOSCloud/AVOSCloud.h>
+#import "DOUAudioStreamer.h"
+#import "DOUAudioStreamer+Options.h"
 @interface AppDelegate ()
 
 @end
@@ -16,10 +18,23 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    [self regiserAvosCloud:launchOptions];
+    [DOUAudioStreamer setOptions:[DOUAudioStreamer options] | DOUAudioStreamerRequireSHA256];
     // Override point for customization after application launch.
     return YES;
 }
-
+- (void)regiserAvosCloud:(NSDictionary *)launchOptions{
+    
+    //设置AVOSCloud
+    [AVOSCloud setApplicationId:@"3s38elh17mlr91lu2mw114cw6ehgkk9no7eh8wokh753danu"
+                      clientKey:@"pk11rjzqjee1jtlal009u9yx7eqmw7wfxzcmwvsi6egblfsa"];
+    
+    
+    //统计应用启动情况
+    [AVAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

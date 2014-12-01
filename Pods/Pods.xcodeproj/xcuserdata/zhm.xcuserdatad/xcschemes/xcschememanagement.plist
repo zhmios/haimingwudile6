@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-AVOSCloud.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SDWebImage-ProgressView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-UIActivityIndicator-for-SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2FFD56129E97AAD800828F5A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>70CBBE4A1243A9D853033E5F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>953B37161A98D77A0C7D4F1A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>989552F2FBC66D1CB883D599</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C00D4AC73A8396DF3DB16FAA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
